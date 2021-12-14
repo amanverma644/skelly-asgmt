@@ -1,9 +1,14 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import Header from './components/Header'
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Header />
+      <Container>
+        <h2>Hello World</h2>
+      </Container>
     </div>
   )
 }
