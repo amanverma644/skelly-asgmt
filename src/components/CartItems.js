@@ -39,9 +39,9 @@ const CartItems = () => {
             </Col>
             <Col md={5}>
               <p>
-                T-Shirt Summer Vibes
+                Basic Slim Fit T-Shirt
                 <br />
-                <span className="serial-no">#1234</span>
+                <span className="serial-no">#4321</span>
               </p>
             </Col>
             <Col md={4}>

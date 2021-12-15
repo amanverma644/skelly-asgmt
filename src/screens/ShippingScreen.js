@@ -1,12 +1,21 @@
 import React from 'react'
 import { Row, Col, Button, Form } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 import CheckoutSteps from '../components/CheckoutSteps'
 import PaymentMethods from '../components/PaymentMethods'
 import DeliveryMethods from '../components/DeliveryMethods'
 import ShippingForm from '../components/ShippingForm'
 import CartItems from '../components/CartItems'
+import LoginScreen from './LoginScreen'
+import Footer from '../components/Footer'
 
 const ShippingScreen = () => {
+  const navigate = useNavigate()
+
+  const submitHandler = (e) => {
+    e.preventDefault()
+    navigate('/login')
+  }
   return (
     <>
       <Row>
@@ -19,7 +28,11 @@ const ShippingScreen = () => {
       </Row>
       <Row>
         <Col md="6">
-          <Button type="button" className="btn btn-success btn-lg">
+          <Button
+            type="button"
+            className="btn btn-success btn-lg"
+            onClick={submitHandler}
+          >
             LOG IN
           </Button>
           <Button
@@ -45,6 +58,7 @@ const ShippingScreen = () => {
           <CartItems />
         </Col>
       </Row>
+      <Footer />
     </>
   )
 }

@@ -1,18 +1,21 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 import Header from './components/Header'
 import ShippingScreen from './screens/ShippingScreen'
-import Footer from './components/Footer'
+import LoginScreen from './screens/LoginScreen'
 
 function App() {
   return (
-    <div>
+    <Router>
       <Header />
       <Container>
-        <ShippingScreen />
+        <Routes>
+          <Route path="/" element={<ShippingScreen />} exact />
+          <Route path="/login" element={<LoginScreen />} />
+        </Routes>
       </Container>
-      <Footer />
-    </div>
+    </Router>
   )
 }
 
