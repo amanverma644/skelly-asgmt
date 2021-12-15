@@ -8,20 +8,19 @@ const Header = () => {
         <Navbar bg="light" expand="lg">
           <Container>
             <Navbar.Brand>E-Shop</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Nav className="mx-auto">
               <Nav.Item>
-                <Nav.Link href="#">
+                <Nav.Link href="#" className="nav-category">
                   <b>Men</b>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#">
+                <Nav.Link href="#" className="nav-category">
                   <b>Women</b>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#">
+                <Nav.Link href="#" className="nav-category">
                   <b>Kids</b>
                 </Nav.Link>
               </Nav.Item>
