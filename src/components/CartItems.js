@@ -65,7 +65,7 @@ const CartItems = () => {
         <Col md={2}>
           <i className="fas fa-truck" style={{ color: 'grey' }}></i>
         </Col>
-        <Col md={10}>You are $2 dollar away from free shipping!</Col>
+        <Col md={10}>You are $2 away from free shipping!</Col>
       </Row>
     </>
   )

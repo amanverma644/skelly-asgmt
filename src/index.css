@@ -17,11 +17,11 @@ h6 {
 
 .horizontal-line {
   content: '';
-  width: 3rem;
+  width: 3em;
   height: 3px;
   position: absolute;
   top: 13%;
-  right: 13%;
+  right: 193px;
   background-color: #f0eaea;
   border-radius: 15%;
 }
