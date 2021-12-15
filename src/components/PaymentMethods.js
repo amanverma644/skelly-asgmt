@@ -6,37 +6,37 @@ const PaymentMethods = () => {
     <div>
       <Image
         className="payment-button rounded-pill"
-        src="./logos/paymentLogos/paypal.png"
+        src="./images/paymentLogos/paypal.png"
         fluid
         width="70px"
       ></Image>
       <Image
         className="payment-button rounded-pill"
-        src="./logos/paymentLogos/visa.png"
+        src="./images/paymentLogos/visa.png"
         fluid
         width="70px"
       ></Image>
       <Image
         className="payment-button rounded-pill"
-        src="./logos/paymentLogos/razorpay.jpg"
+        src="./images/paymentLogos/razorpay.jpg"
         fluid
         width="70px"
       ></Image>
       <Image
         className="payment-button rounded-pill"
-        src="./logos/paymentLogos/mastercard.png"
+        src="./images/paymentLogos/mastercard.png"
         fluid
         width="70px"
       ></Image>
       <Image
         className="payment-button rounded-pill"
-        src="./logos/paymentLogos/amazonPay.png"
+        src="./images/paymentLogos/amazonPay.png"
         fluid
         width="70px"
       ></Image>
       <Image
         className="payment-button rounded-pill"
-        src="./logos/paymentLogos/stripe.png"
+        src="./images/paymentLogos/stripe.png"
         fluid
         width="70px"
       ></Image>

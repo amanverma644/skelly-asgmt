@@ -6,25 +6,25 @@ const PaymentMethods = () => {
     <div>
       <Image
         className="delivery-button rounded-pill"
-        src="./logos/deliveryLogos/fedEx.png"
+        src="./images/deliveryLogos/fedEx.png"
         fluid
         width="70px"
       ></Image>
       <Image
         className="delivery-button rounded-pill"
-        src="./logos/deliveryLogos/DHL.png"
+        src="./images/deliveryLogos/DHL.png"
         fluid
         width="70px"
       ></Image>
       <Image
         className="delivery-button rounded-pill"
-        src="./logos/deliveryLogos/inPost.png"
+        src="./images/deliveryLogos/inPost.png"
         fluid
         width="70px"
       ></Image>
       <Image
         className="delivery-button rounded-pill"
-        src="./logos/deliveryLogos/DPD.png"
+        src="./images/deliveryLogos/DPD.png"
         fluid
         width="70px"
       ></Image>
