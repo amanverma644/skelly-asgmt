@@ -41,3 +41,19 @@ h6 {
   margin: 2px 5px;
   padding: 8px 25px;
 }
+
+.payment-button {
+  margin: 4px;
+  width: 30%;
+  border: 2px solid #c6b3b3;
+  height: 50px;
+  padding: 9px 15px;
+}
+
+.delivery-button {
+  margin: 4px 15px;
+  width: 40%;
+  border: 2px solid #c6b3b3;
+  height: 50px;
+  padding: 10px 27px;
+}

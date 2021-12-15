@@ -1,6 +1,8 @@
 import React from 'react'
 import { Row, Col, Button, Form } from 'react-bootstrap'
 import CheckoutSteps from '../components/CheckoutSteps'
+import PaymentMethods from '../components/PaymentMethods'
+import DeliveryMethods from '../components/DeliveryMethods'
 
 const ShippingScreen = () => {
   return (
@@ -114,6 +116,12 @@ const ShippingScreen = () => {
               </Col>
             </Row>
           </Form>
+        </Col>
+        <Col md="3">
+          <h6>Payment method</h6>
+          <PaymentMethods />
+          <h6>Delivery method</h6>
+          <DeliveryMethods />
         </Col>
       </Row>
     </>
