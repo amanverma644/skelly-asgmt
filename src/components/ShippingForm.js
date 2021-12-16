@@ -1,10 +1,11 @@
 import React from 'react'
 import { Row, Col, Form } from 'react-bootstrap'
+
 const ShippingForm = () => {
   return (
     <>
       <Row>
-        <Col md="6">
+        <Col md="6" className="my-2">
           {' '}
           <Form.Group controlId="email">
             <Form.Control
