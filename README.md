@@ -1,10 +1,10 @@
 # E-Shop
 
-![screenshot](https://github.com/amanverma644/E-Commerce/blob/master/uploads/ProShop%20Sample%20img.png)
+![screenshot](https://github.com/amanverma644/skelly-asgmt/blob/master/uploads/Screenshot%202021-12-16%20125556.png)
 
 ## Usage
 
-### Install Dependencies (frontend & backend)
+### Install Dependencies
 
 ```
 npm install
