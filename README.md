@@ -4,7 +4,7 @@
 
 ## Usage
 
-### Install Dependencies (frontend & backend)
+### Install Dependencies
 
 ```
 npm install
