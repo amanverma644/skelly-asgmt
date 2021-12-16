@@ -1,5 +1,7 @@
 import React from 'react'
 import { Button, Col, Image, ListGroup, Row } from 'react-bootstrap'
+import sampleProduct1 from '../assets/images/productImages/sample-image-1.png'
+import sampleProduct2 from '../assets/images/productImages/sample-image-2.png'
 
 const CartItems = () => {
   return (
@@ -10,7 +12,7 @@ const CartItems = () => {
             <Col md={3}>
               <Image
                 className="rounded-pill"
-                src="/images/productImages/sample-image-1.png"
+                src={sampleProduct1}
                 fluid
                 rounded
               ></Image>
@@ -32,7 +34,7 @@ const CartItems = () => {
             <Col md={3}>
               <Image
                 className="rounded-pill"
-                src="/images/productImages/sample-image-2.png"
+                src={sampleProduct2}
                 fluid
                 rounded
               ></Image>
@@ -54,7 +56,7 @@ const CartItems = () => {
             <Col md={12}>
               <div className=" d-grid gap-2  rounded-pill">
                 <Button class="btn" variant="secondary" disabled>
-                  Total Price <span className="mx-4">$1198</span>
+                  Total Price <span className="mx-4 total-price">$1198</span>
                 </Button>
               </div>
             </Col>

@@ -66,3 +66,9 @@ h6 {
 .capital-E {
   color: #ffab12;
 }
+
+/* Total Price  */
+.total-price {
+  color: black;
+  font-weight: bold;
+}

@@ -6,7 +6,6 @@ import PaymentMethods from '../components/PaymentMethods'
 import DeliveryMethods from '../components/DeliveryMethods'
 import ShippingForm from '../components/ShippingForm'
 import CartItems from '../components/CartItems'
-import LoginScreen from './LoginScreen'
 import Footer from '../components/Footer'
 
 const ShippingScreen = () => {
